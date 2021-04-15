@@ -1,0 +1,44 @@
+@media (min-width:320px) and (max-width:426px){
+    footer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        p{
+            color :white;
+            margin: 0;
+            font-size: 30%;
+        }
+    }
+}
+
+@media (min-width:427px) and (max-width:769px){
+    footer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        p{
+            color :white;
+            margin: 0;
+            font-size: 40%;
+        }
+    }
+}
+
+@media (min-width:770px){
+    footer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        p{
+            color :white;
+            margin: 0;
+            font-size: 50%;
+        }
+    }
+}
